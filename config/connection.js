@@ -7,3 +7,4 @@ const connection = mysql.createConnection({
   password: "min95595",
   database: "burgers_db"
 });
+
