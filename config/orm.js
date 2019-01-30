@@ -11,3 +11,8 @@ function printQuestionMarks(num) {
 
   return arr.toString();
 }
+
+// Helper function to convert object key/value pairs to Sql syntax
+var objToSql = (ob) => {
+    var arr = [];
+  
