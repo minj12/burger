@@ -1,0 +1,66 @@
+<div class="container bg">
+	<br>
+	<div class="row">
+		<div class="top-section">
+			<div class="center col-sm-12">
+				<br>
+				<img src="assets/image/burger.jpg" id="burger-image" style="width:300px;height:260px;" alt="burger">
+				<h2>Eat-A-Burger</h2>
+
+				<p></p>
+			</div>
+		</div>
+	</div>
+	<!-- end .row -->
+
+	<div class="row">
+		<div class="middle-section">
+			<div class="col-sm-5 col-sm-offset-1">
+
+				<div id="devour">
+
+					{{#each burgers}}
+						{{#if devoured}}
+							{{> burgers/burger-block devoured=false}} {{/if}}
+					{{/each}}
+				</div>
+
+			</div>
+
+			<div class="col-sm-4 col-sm-offset-2">
+
+				<div id="devoured">
+
+					{{#each burgers}}
+						{{#unless devoured}}
+							<li>
+								{{id}}. {{burger_name}}
+							</li>
+						{{/unless}}
+					{{/each}}
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{{!-- end row --}}
+
+	<div class="row">
+		<div class="lower-section">
+			<div class="center col-sm-12">
+				<h4>Add a Burger</h4>
+				<form class="create-form">
+
+					<div class="field">
+						<label class="label" id="label" for="burger">Burger Name:</label>
+						<input type="text" id="burger" name="name" class="input" required>
+						<button class="button is-danger" type="submit ">Add Burger</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- end .row -->
+
+</div>
