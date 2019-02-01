@@ -1,0 +1,45 @@
+
+body { 
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-color: #E6DA9F; 
+}
+
+.top-section, .lower-section{
+    text-align: center; 
+}
+
+
+#label {
+    color: black;
+    font-size: 16px;
+}
+
+#burger-image{
+    margin-top: 10px;
+}
+#devoured{
+    color: brown;
+}
+#devour{
+    color: green;
+}
+
+body {
+    font-family: "Arial Black";
+}
+h2 {
+    color: blue;
+    
+}
+h4 {
+    color: blue;
+}
+
+li {
+    padding: 4px;
+    font-size: 16px;
+}
+

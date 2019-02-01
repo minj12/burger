@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/minj12/burger#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
     "mysql": "^2.16.0"
   },
   "devDependencies": {},
