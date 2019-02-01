@@ -4,7 +4,7 @@ body {
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
-	background-color: #E6DA9F; 
+	background-color: rgb(255, 244, 191); 
 }
 
 .top-section, .lower-section{
@@ -28,7 +28,7 @@ body {
 }
 
 body {
-    font-family: "Arial Black";
+    font-family: 'Anton', sans-serif;
 }
 h2 {
     color: blue;
