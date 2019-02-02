@@ -1,3 +1,7 @@
+body {
+    background-image: url(../image/burgers2.png);
+
+}
 
 body { 
 	background-position: center center;
@@ -6,6 +10,8 @@ body {
     background-size: contain;
 	background-color: rgb(255, 230, 92)	
 }
+
+
 
 .top-section, .lower-section{
     text-align: center; 
