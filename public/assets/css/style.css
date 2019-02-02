@@ -1,11 +1,10 @@
 body {
     background-image: url(../image/burgers2.png);
-    opacity: 0.5;
 }
 
 body { 
 	background-position: center center;
-	background-repeat:  no-repeat;
+	background-repeat:  repeat;
 	background-attachment: fixed;
     background-size: contain;
 	background-color: rgb(255, 230, 92)	
