@@ -1,4 +1,4 @@
-# Eat-a-Burger! *A Node Express Handlebars App*
+# Eat-a-Burger!: a Node Express Handlebars App
 ### About
 * This is an app where you can log in burgers you are looking to devour
 
