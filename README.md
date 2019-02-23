@@ -3,6 +3,7 @@
 * This is an app where you can log in burgers you are looking to devour
 ![alt text](https://github.com/minj12/burger/blob/master/public/assets/image/burgershot1.JPG)
 ### Directions of use
+*Link to App:* https://warm-headland-32899.herokuapp.com/
 1. In the white textbox, type desired burgers.
 2. Click "*Add Burger*" button. Burger will appear on left side
 3. When eaten burger, click "*Devour it*" button next to the burger. Devoured burger will appear on the right side. 
